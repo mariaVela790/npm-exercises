@@ -2,10 +2,14 @@
 
 const $ = require('jquery');
 
-const sayHello = () =>{
-    console.log('hello');
-};
+const { sayHello }  = require('./say-hello.js');
 
 sayHello();
+//
+// const sayHello = () =>{
+//     console.log('hello');
+// };
+//
+// sayHello();
 
-$("body").css('background-color', 'lime');
+// $("body").css('background-color', 'lime');
